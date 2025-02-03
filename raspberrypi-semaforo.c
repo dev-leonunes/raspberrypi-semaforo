@@ -61,6 +61,8 @@ int main()
     add_repeating_timer_ms(3000, repiting_timer_callback, NULL, &timer);
     while (true)
     {
+        printf("State: %d\n", state);
+        sleep_ms(1000);
     }
 
     return 0;
