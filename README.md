@@ -21,17 +21,17 @@ Este projeto utiliza um Raspberry Pi Pico W para simular o funcionamento de um s
 ## Instalação e Configuração
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/seu-usuario/raspberrypi-semaforo.git
-    cd bitdoglab-interruptions
+    git clone https://github.com/dev-leonunes/raspberrypi-semaforo.git
+    cd raspberrypi-semaforo
     ```
 2. Configurar o ambiente no Visual Studio Code:
     - Abra o Visual Studio Code no diretório do projeto.
-    - Certifique-se de que as configurações no arquivo settings.json estão corretas e apontam para os caminhos corretos do SDK, CMake, Ninja, etc.
+    - Certifique-se de que as configurações no arquivo ``settings.json`` estão corretas e apontam para os caminhos corretos do SDK, CMake, Ninja, etc.
 
 ## Como utilizar
 
 1. **Compilar o projeto**:
-    - No Visual Studio Code, abra a extensão Raspberry Pi Pico Project, procure e selecione a função Compile Project.
+    - No Visual Studio Code, abra a extensão Raspberry Pi Pico Project, procure e selecione a função ``Compile Project``.
 
 2. **Execute o projeto**:
     - Retorne aos arquivos do projeto, abra o arquivo ``diagram.json``, clique no botão verde ``Start the simulation``.
