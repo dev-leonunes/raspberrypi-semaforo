@@ -1,4 +1,4 @@
 [wokwi]
 version = 1
-firmware = 'build/raspberrypi-semaforo.uf2'
-elf = 'build/raspberrypi-semaforo.elf'
+firmware = 'build/raspberrypi-trafficlight.uf2'
+elf = 'build/raspberrypi-trafficlight.elf'
