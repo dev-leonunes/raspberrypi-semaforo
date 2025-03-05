@@ -21,8 +21,8 @@ Este projeto utiliza um Raspberry Pi Pico W para simular o funcionamento de um s
 ## Instalação e Configuração
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/dev-leonunes/raspberrypi-semaforo.git
-    cd raspberrypi-semaforo
+    git clone https://github.com/dev-leonunes/raspberrypi-trafficlight.git
+    cd raspberrypi-trafficlight
     ```
 2. Configurar o ambiente no Visual Studio Code:
     - Abra o Visual Studio Code no diretório do projeto.
@@ -43,7 +43,7 @@ Este projeto utiliza um Raspberry Pi Pico W para simular o funcionamento de um s
 - ``.vscode``: Diretório contendo configurações do Visual Studio Code.
 - ``build``: Diretório onde os arquivos compilados serão gerados.
 - ``CMakeLists.txt``: Arquivo de configuração do CMake para o projeto.
-- ``raspberrypi-semaforo.c``: Código fonte principal do projeto.
+- ``raspberrypi-trafficlight.c``: Código fonte principal do projeto.
 - ``diagram.json``: Diagrama de conexões dos componentes.
 - ``wokwi.toml``: Arquivo de configuração para simulação no Wokwi.
 - ``pico_sdk_import.cmake``: Arquivo de importação do SDK do Raspberry Pi Pico.
